@@ -1,0 +1,420 @@
+/* <reset css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    
+}
+
+.alignment {
+    width: 55%;
+    margin: 0 auto;
+}
+
+
+
+
+/* <header */
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+.taskbar { 
+    
+}
+
+.taskbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.navigate__content {
+    display: flex;
+    
+    
+}
+
+.navigate__content .navigate__content-item  {
+    margin-left: 50px;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+
+
+/* <carosel */
+#carosel {
+    background-image: url("./anh-bt-samar/pic2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+   
+
+}
+
+.title__all {
+}
+
+.title__all > p:first-child {
+    font-weight: 600;
+    font-size: 22px;
+    color: #f15382;
+    font-weight: 600;
+}
+.title__all h1 {
+    font-weight: 800;
+    font-size: 70px;
+}
+.title__all p:last-child {
+    font-size: 22px;
+    color: gray;
+    margin: 40px 0;
+}
+
+
+
+
+
+.title__all ul li {
+    list-style: none;
+    color: gray;
+    font-size: 18px;
+    font-weight: 540;
+}
+
+.button {
+    background-image: linear-gradient(to right, #f55f8d, #f8ae56);
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 200px;
+    height: 70px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    margin: 10px;
+}
+
+.carosel__circle li i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    border-radius: 35px;
+    font-weight: 900;
+    background-image: linear-gradient(to right, #f55f8d, #f8ae56);
+    background-size: 100%;
+    margin-right: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
+/* <.services  */
+
+.tt {
+    text-align: center;
+}
+
+#service {
+    background-image: url("./anh-bt-samar/bg2.png");
+    background-size: cover;
+}
+
+.services__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    
+}
+
+.services__item {
+    text-align: center;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
+    padding: 30px 45px;
+}
+
+.services__item img {
+    width: 230px;
+}
+
+
+
+
+
+
+
+/* <about */
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.about img {
+    width: 800px;
+    border-radius: 150px;
+}
+
+.about__left {
+    position: absolute;
+    left: -40%;
+}
+
+.about__circle ul li  {
+    list-style: none;
+}
+
+.about__circle i {
+    color: #f15382;
+}
+
+
+/* <statistics */
+
+#statistics {
+    background-image: url(./anh-bt-samar/bg14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: absolute; */
+    text-align: center;
+    padding: 50px 0;
+    
+}
+
+.statistics__content  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.statistics__content .statistics__item {
+    padding: 0 100px;
+    margin: 100px 0;
+
+}
+
+.statistics__item h1 {
+    font-size: 100px;
+}
+
+.statistics__item p {
+    font-size: 22px;
+
+}
+
+
+
+/* <features */
+
+#features {
+    background-image: url("./anh-bt-samar/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.features__0 {
+    display: flex;
+}
+
+
+.features__1 ul li {
+    list-style: none;
+     border-radius: 15px;
+    box-shadow: 0 10px 100px rgba(194, 168, 168, 0.911);
+    margin: 20px 0;
+
+}
+
+
+
+/* <portfolio */
+
+.xx {
+    text-align: center;
+}
+
+
+
+.portfolio__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 1.5fr;
+    gap: 3rem;
+}
+
+.portfolio__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+
+} 
+
+.portfolio__item.item-1 {
+    grid-column:  1/ span 2;
+    
+}
+
+.portfolio__item.item-6 {   
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+}
+
+.portfolio__item-5 {
+    grid-column: 1 / span 2;
+} 
+
+
+/* <blog */
+.blog {
+    /* position: relative; */
+}
+
+.pink {
+    color: #f55f8d;
+}
+
+.px__10 {
+    margin-left: 10%;
+}
+
+.mark {
+    display: inline;
+    position: relative;
+    bottom: 12px;
+    left: 20px;
+    border: 2px solid red;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #f55f8d , #f8ae56);
+    color: white;
+}
+
+.blog__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.blog__item img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
+
+.blog__item {
+    background: rgba(245, 95, 141, 0.1);
+    margin: 0 20px;
+    width: 16%;
+    border-radius: 10px;
+}
+
+.blog__item__body {
+    margin: 6% 0;
+}
+
+.blog__item__footer {
+    display: flex;
+    border-top: 1px solid rgb(0 0 0 / 16%);
+    padding: 20px 0;
+}
+
+
+
+/* <subscribe */
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    /* position: absolute; */
+    background-image: url(./anh-bt-samar/pattern3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.subscribe__text h1 {
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.subscribe__form {
+    
+}
+
+.subscribe__form input {
+    width: 550px;
+    height: 80px;
+    position: relative;
+}
+
+.subscribe__form button {
+    height: 80px;
+    width: 100px;
+    position: absolute;
+}
+
+
+/* <footer */
+
+.footer {
+    background-color: aquamarine;
+}
+
+.footer__content {
+    background-image: url("./anh-bt-samar/bg4.png");
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer__contact ul li i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    background: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
+    display: block;
+    border-radius: 50px;
+    
+}
+
+.footer__contact ul li {
+    display: flex;
+}
